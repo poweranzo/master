@@ -8,14 +8,19 @@
     <body>
 
         <br>
-        <div>
-            <img src="">
-            <br>
-            <progress class="styled" max="10" value=""></progress>
-            <h4 id='level' value=""></h2>
-        </div>   
-        <br>
-        <div >
+        <div class="flex-container">
+            <div class="user"> 
+                 <span class="name">학번 이름</span>
+                 <span id="level">Lv.1</span>
+             </div>
+             <div class="image">
+                 <img id="character" src="img/level1.jpeg" height="200px" width="200px">
+             </div>
+             <div class="exp">
+                 <label for="level-gauge">EXP : </label> <progress id="styled" class="styled" max="10" value=""></progress>
+             </div> 
+        </div>
+        <div class="check">
             <input type="checkbox" name="check" value=5>개강 총회<br><br>
             <input type="checkbox" name="check" value=5>종강 총회<br><br>
             <input type="checkbox" name="check" value=1>신입생 환영회<br>
