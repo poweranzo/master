@@ -1,0 +1,10 @@
+*{
+    text-align: center;
+}
+.progress{
+    background-color: #ffeeee;
+    -webkit-appearance: none;
+    border: none;
+    width: 400px;
+    height: 60px;
+}
