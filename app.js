@@ -1,11 +1,3 @@
-CSS.registerProperty({
-    name: "--p",
-    syntax: "<integer>",
-    initialValue: 0,
-    inherits: true,
-  });
-
-
 const submitButton = document.querySelector("button");
 const progress= document.querySelector("progress");
 const showlevel= document.querySelector("#level");
