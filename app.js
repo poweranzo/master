@@ -5,6 +5,8 @@ const img = document.querySelector("img");
 var level;
 let cnt=0;
 
+
+
 function fchk() { 
     var chk_obj = document.getElementsByName("check");
     var chk_leng = chk_obj.length;
